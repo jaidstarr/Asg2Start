@@ -1,2 +1,5 @@
-reflector
+tmux
+kakoune
+
+reflector 
 apache
