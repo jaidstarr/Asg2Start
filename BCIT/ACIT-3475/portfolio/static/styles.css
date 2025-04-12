@@ -1,0 +1,145 @@
+/* *{
+    margin:0px;
+}
+
+#navtop{
+    align-self: flex-end;
+    padding:0px;
+}
+.navitem{
+    display: inline;
+    background-color: goldenrod;
+    padding:6px;
+    margin:8px;
+}
+.cont{
+    margin:51px 257px 15px;
+}
+
+header{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    background-color: bisque;
+    height:100px;
+}
+
+
+#pfp{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    width:460px;
+}
+#pfp img{
+    width: 30px;
+    margin: 5px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* BODY */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 1rem 2rem;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 150px;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 150px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* MAIN CONTAINER */
+  /* .main-container {
+    display: flex;
+    min-height: calc(100vh - 60px);
+  } */
+
+  .main-container {
+    display: flex;
+    min-height: calc(100vh - 60px); 
+    max-width: 1200px;           
+    margin: 0 auto;               
+    padding: 0 1rem;             
+  }
+  
+  header {
+    background-color: #eee;
+
+  }
+  
+
+  /* LEFT COLUMN (ASIDE) */
+  aside {
+    width: 25%;
+    background-color: #f7f7f7;
+    padding: 1rem;
+  }
+  
+  /* BIO SECTION INSIDE ASIDE */
+  .bio-section {
+    background-color: #ddd;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  /* RIGHT CONTENT (MAIN) */
+  main {
+    width: 75%;
+    padding: 1rem 2rem;
+  }
+  
+  /* SECTIONS */
+  .projects-section, 
+  .resume-section {
+    margin-bottom: 2rem;
+  }
+  
+  /* PROJECT / RESUME ITEMS */
+  .project-item, 
+  .resume-item {
+    background-color: #ccc;
+    margin: 1rem 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-weight: bold;
+  }

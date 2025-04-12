@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}Portfolio{% endblock %}
+
+{% block content %}
+<!-- The following is your original portfolio markup -->
+<div class="main-container">
+  
+  <!-- LEFT COLUMN (ABOUT / BIO) -->
+  <aside>
+    <div class="bio-section">
+      <h2>About Me</h2>
+      <p>
+        This is a short introduction or bio.
+        You can add an image or any other content here.
+      </p>
+    </div>
+  </aside>
+
+  <!-- RIGHT CONTENT AREA -->
+  <main>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects-section">
+      <h2>PROJECTS</h2>
+      <div class="project-item">
+        <h1>Green Basket</h1>
+        <p>this is text explaining my green basket project</p>
+      </div>
+      <div class="project-item">Project 2</div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="resume-section">
+      <h2>RESUME</h2>
+      <div class="resume-item">
+        <p>Resume placeholder content goes here.</p>
+      </div>
+    </section>
+  </main>
+</div>
+{% endblock %}

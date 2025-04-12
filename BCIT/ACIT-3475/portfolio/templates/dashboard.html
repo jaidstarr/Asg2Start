@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="dashboard">
+  <h2>Welcome, {{ username }}!</h2>
+  <p>This is your dashboard. Here you can integrate your projects, resume details, and more.</p>
+  
+  <!-- Insert your portfolio projects or any other content here -->
+  
+  <a href="{{ url_for('logout') }}">Logout</a>
+</div>
+{% endblock %}

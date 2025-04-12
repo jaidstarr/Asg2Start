@@ -1,0 +1,5 @@
+:80 {
+	root * C:\\Users\\jades\\BCIT\\ACIT-3475\\portfolio
+		file_server
+		reverse_proxy 127.0.0.1:5000
+}
